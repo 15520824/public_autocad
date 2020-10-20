@@ -1,0 +1,384 @@
+.absol-single-page-header {
+    padding: 0.7143rem 0.7143rem 0.7143rem 1.4286rem;
+    background-color: white;
+}
+
+.absol-single-page-header .absol-icon-button:not(:first-child) {
+    margin-left: 0.3571rem;
+}
+
+.absol-single-page-header .absol-icon-button:not(:last-child) {
+    margin-right: 0.3571rem;
+}
+
+.pizo-list-realty-button {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.pizo-app .absol-single-page-header {
+    /*display: -webkit-box;*/
+    display: -ms-flexbox;
+    display: flex;
+    align-items: stretch;
+}
+
+.pizo-list-realty-page-allinput-input {
+    padding: 0.4286rem;
+    border: solid 0.0714rem var(--color-input-color);
+    width: calc(100% - 1rem);
+    display: inline-block;
+    font-size: 1.01rem;
+}
+
+.pizo-list-realty-page-allinput {
+    padding-left: 1.4286rem;
+    position: relative;
+    flex-grow: 2;
+    /*display: -webkit-box;*/
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.pizo-list-realty-page-allinput-search {
+    position: absolute;
+    transform: translate(-105%, 0.2rem);
+    height: calc(100% - 0.4rem);
+    width: 4rem;
+    border: solid 0.0714rem var(--color-input-color);
+}
+
+.pizo-list-realty-page-number {
+    margin-right: 1.7143rem;
+    position: relative;
+    display: inline-block;
+}
+
+.pizo-list-realty-page-number-input {
+    width: 2.1429rem;
+}
+
+.pizo-list-realty-page-number-line {
+    left: calc(100% - 10px);
+    position: absolute;
+    transform: translate(-100%, 0);
+    white-space: nowrap;
+    top: 0.7143rem;
+    height: 2rem;
+}
+
+.freebirdFormeditorViewAssessmentWidgetsPointsLabel {
+    margin: auto;
+    margin-left: 0.3571rem
+}
+
+.pizo-body-dashboard {
+    margin: 1.4286rem;
+    margin-top: 2.1429rem;
+    width: calc(100% - 2.8571rem);
+    height: calc(100% - 3.2857rem);
+}
+
+.pizo-body-dashboard>div {
+    background-color: white;
+}
+
+.pizo-list-realty-main,
+.pizo-list-plan-main {
+    margin-left: 1.4286rem;
+    margin-right: 0.7143rem;
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 30px);
+    /*display: -webkit-box;*/
+    display: -ms-flexbox;
+    display: flex;
+    align-items: stretch;
+}
+
+.pizo-list-realty-main {
+    flex-direction: column;
+}
+
+.pizo-new-realty-desc {
+    width: 100%;
+}
+
+.pizo-list-realty-main-search-control {
+    /*display: -webkit-box;*/
+    display: -ms-flexbox;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.pizo-list-realty-main-result-control {
+    flex-grow: 2;
+    position: relative;
+    align-items: stretch;
+    /*display: -webkit-box;*/
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+}
+
+.pizo-list-realty-main-search-control-container {
+    width: 100%;
+}
+
+.pizo-list-realty-main-search-control-row {
+    margin-bottom: 0.7143rem;
+}
+
+.pizo-list-realty-main-search-control-row>div {
+    min-height: 0.0714rem;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 20%;
+}
+
+.pizo-list-realty-main-search-control-row-date {
+    width: calc(18% + 1.4286rem);
+}
+
+.pizo-list-realty-main-search-control-row-price {
+    width: calc(36% - 2.1429rem);
+}
+
+.pizo-list-realty-main-search-control-row-phone {
+    width: calc(18% - 1.7857rem);
+}
+
+.pizo-list-realty-main-search-control-row-button {
+    width: calc(28% - 1.8125rem);
+}
+
+.pizo-list-realty-main-search-control-row-MS {
+    width: 9%;
+}
+
+.pizo-list-realty-main-search-control-row-MS-input>input {
+    width: calc(100% - 1rem);
+    padding: 0.4286rem;
+    border: solid 0.0714rem var(--color-input-color);
+}
+
+.pizo-list-realty-main-search-control-row-SN {
+    width: 9%;
+}
+
+.pizo-list-realty-main-search-control-row-SN-input>input {
+    width: calc(100% - 1rem);
+    padding: 0.4286rem;
+    border: solid 0.0714rem var(--color-input-color);
+}
+
+.pizo-list-realty-main-search-control-row-TD {
+    width: calc(18% - 1.7857rem);
+}
+
+.pizo-list-realty-main-search-control-row-TD-input>input {
+    width: calc(100% - 1rem);
+    padding: 0.4286rem;
+    border: solid 0.0714rem var(--color-input-color);
+}
+
+.pizo-list-realty-main-search-control-row-PX {
+    width: calc(18% - 1.7857rem);
+}
+
+.pizo-list-realty-main-search-control-row-PX-input>input {
+    width: calc(100% - 1rem);
+    padding: 0.4286rem;
+    border: solid 0.0714rem var(--color-input-color);
+}
+
+.pizo-list-realty-main-search-control-row-QH {
+    width: calc(18% - 1.7857rem);
+}
+
+.pizo-list-realty-main-search-control-row-QH-input>input {
+    width: calc(100% - 1rem);
+    padding: 0.4286rem;
+    border: solid 0.0714rem var(--color-input-color);
+}
+
+.pizo-list-realty-main-search-control-row-TT {
+    width: calc(18% - 1.7857rem);
+}
+
+.pizo-list-realty-main-search-control-row-TT-input>input {
+    width: calc(100% - 1rem);
+    padding: 0.4286rem;
+    border: solid 0.0714rem var(--color-input-color);
+}
+
+.pizo-list-realty-main-search-control-row-HT-input {
+    height: 1.9375rem;
+}
+
+.pizo-list-realty-main-search-control-row-HT-input>div {
+    min-width: 100% !important;
+    height: 100%;
+}
+
+.pizo-list-realty-main-search-control-row>div:not(:first-child) {
+    margin-left: 1.4286rem;
+}
+
+.pizo-list-realty-main-search-control-row-price-input>input {
+    width: calc(50% - 1rem);
+    padding: 0.4286rem;
+    border: solid 0.0714rem var(--color-input-color);
+    text-align: right;
+}
+
+.pizo-list-realty-main-search-control-row-phone-input>input {
+    padding: 0.4286rem;
+    border: solid 0.0714rem var(--color-input-color);
+    width: calc(100% - 1rem);
+}
+
+.pizo-list-realty-main-search-control-row-price-input>input::-webkit-inner-spin-button,
+.pizo-list-realty-main-search-control-row-price-input>input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.pizo-list-realty-main-search-control-row-phone-input>input::-webkit-inner-spin-button,
+.pizo-list-realty-main-search-control-row-phone-input>input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.pizo-list-realty-main-search-control-row-MS-input>input::-webkit-inner-spin-button,
+.pizo-list-realty-main-search-control-row-MS-input>input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.pizo-list-realty-main-search-control-row-button-search {
+    margin-top: 1rem;
+    margin-bottom: auto;
+}
+
+.pizo-list-realty-main-search-control-row-date-input .absol-calendar-input {
+    width: calc(50% - 0.1429rem);
+}
+
+.pizo-list-realty-button-apply.pizo-list-realty-button-element {
+    width: calc(50% - 0.6428rem);
+}
+
+.pizo-list-realty-button-deleteall.pizo-list-realty-button-element {
+    margin-left: 1rem;
+    width: calc(50% - 0.6428rem);
+}
+
+.pizo-list-realty-page-allinput-container {
+    display: inline-block;
+    position: relative;
+    width: calc(100% - 9rem);
+}
+
+.navbar-search__filter {
+    width: 1.5rem;
+    stroke: #ee4d2d!important;
+    fill: #ee4d2d!important;
+    display: inline-block;
+}
+
+.navbar-search__filter-text {
+    color: #ee4d2d;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 0.8rem;
+}
+
+.pizo-list-realty-page-allinput-filter {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 1rem;
+    display: none;
+    margin-bottom: 0.2rem;
+}
+
+.pizo-list-realty-main-search-control.showTranslate {
+    transform: translateX(-100%);
+}
+
+.pizo-list-realty-main-search-control.showTranslate .pizo-list-realty-main-search-control-container {
+    transform: translateX(-100%);
+}
+
+.pizo-list-realty-main-search-control.showTranslate .hideTranslate.pizo-list-realty-main-search-control-container {
+    transform: translateX(0);
+}
+
+.pizo-list-realty-main-result-control .sortTable {
+    width: 100%;
+}
+
+
+/* after the second non-.parent, toggle again */
+
+.pizo-list-realty-main-result-control tr:not(.parent)~tr:not(.parent)~.parent:nth-child(even) td {
+    background-color: #f5f5f5;
+}
+
+.pizo-list-realty-main-result-control tr:not(.parent)~tr:not(.parent)~.parent:nth-child(odd) td {
+    background-color: #fff;
+}
+
+
+/* after the first non-.parent, toggle colors */
+
+.pizo-list-realty-main-result-control tr:not(.parent)~.parent:nth-child(odd) td {
+    background-color: #f5f5f5;
+}
+
+.pizo-list-realty-main-result-control tr:not(.parent)~.parent:nth-child(even) td {
+    background-color: #fff;
+}
+
+.pizo-list-realty-main-search-control-row-HT-label {
+    display: flex;
+    /*display: -webkit-box;*/
+    display: -ms-flexbox;
+    flex-shrink: 0;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.pizo-list-realty-main-search-control-row-HT-input {
+    flex-grow: 2;
+    /*display: -webkit-box;*/
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.pizo-list-realty-main-search-control-row-HT {
+    /*display: -webkit-box;*/
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: stretch;
+}
+
+.pizo-list-realty-main-search-control-row-price-label {
+    display: flex;
+    /*display: -webkit-box;*/
+    display: -ms-flexbox;
+    flex-shrink: 0;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.pizo-list-realty-main-search-control-row-price-input {
+    flex-grow: 2;
+    display: flex;
+    /*display: -webkit-box;*/
+    display: -ms-flexbox;
+}

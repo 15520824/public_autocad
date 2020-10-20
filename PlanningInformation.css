@@ -1,0 +1,83 @@
+.pizo-list-realty-main-result-control > .pizo-new-realty-location-map-view{
+    max-width: 100%;
+    min-width: 27.1429rem;
+    display: inline-block;
+    margin-bottom: unset;
+    width: calc(100% - 5px);
+    vertical-align: top;
+    margin-left: unset;
+}
+
+.hiddenUI{
+    display: none;
+}
+
+.pizo-list-plan-main-search-control-row-selectbox-plan{
+    display: flex;
+    flex-shrink: 0;
+    width: fit-content;
+    align-items: center;
+}
+
+.pizo-list-realty-main-search-control-row-selectbox-plan-input{
+    padding-left: 10px;
+    flex-grow: 2;
+    display: flex;    
+    padding-right: 5px;
+}
+
+.pizo-list-realty-main-search-control-row-selectbox-plan-input>div{
+    width: 100%;
+    min-width: unset !important;
+}
+
+.pizo-list-plan-main-search-control-row{
+    /*display: -webkit-box;*/
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+
+.pizo-list-plan-main{
+    padding-top: 0;
+    padding-right: 10px;
+}
+
+.pizo-list-realty-main-search-control-row-selectbox-plan-input .absol-selectbox-item{
+    height: 24px;
+}
+
+.pizo-list-realty-main-search-control-row-selectbox-plan-input .absol-selectbox-item-text{
+    height: 24px;
+}
+
+
+.pizo-list-realty-main-search-control-row-selectbox-plan-input .absol-selectbox-item-close span{
+    line-height: 24px;
+}
+
+.pizo-list-realty-main-search-control-row-selectbox-plan-input .absol-selectbox-item-text span  {
+    line-height: 24px;
+}
+
+.pizo-name-commit-planning-text{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pizo-name-commit-planning-input{
+    padding: 0.4286rem;
+    border: solid 0.0714rem var(--color-input-color);
+    min-width:400px;
+    display: inline-block;
+    font-size: 1.01rem;
+}
+
+/* .gmnoprint{
+    transform: scale(1.58);
+    left: 196px;
+    top: 13px;
+} */

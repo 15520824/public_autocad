@@ -1,0 +1,263 @@
+html{
+    font-size: 14px;
+}
+
+input{
+    font-size: 1rem;
+}
+
+.no-animation table.sortTable>tbody>tr.parent{
+    opacity: 1;
+    transform: none;
+    transition: none;
+}
+
+.pizo-app .container-sortTable{
+    width: 100%;
+}
+
+body {
+    --blue: #122246;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 41.1429rem;
+    --breakpoint-md: 54.8571rem;
+    --breakpoint-lg: 70.8571rem;
+    --breakpoint-xl: 85.7143rem;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --border-color:#253863;
+    --color-body:#eef5f9;
+    --color-input-color:#d6d6d6;
+}
+
+body{
+    margin: 0rem;
+    font-family: "Segoe UI", "SegoeuiPc", "San Francisco", "Helvetica Neue", "Helvetica", "Lucida Grande", "Roboto", "Ubuntu", "Tahoma", Microsoft Sans Serif, Tahoma, Arial, sans-serif;
+    color: #222222;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    text-shadow: 0rem 0 0rem rgba(0, 0, 0, 0.2);
+}
+
+.app-container{
+    width:100vw;
+    height: 100vh;
+}
+
+.pizo-app{
+    height: 100%;
+    width: 100%;
+}
+
+.pizo-header{
+    width: calc(100% - 0.1429rem);
+    border:  0.0714rem solid var(--border-color);
+    background-color: var(--blue);
+}
+
+
+.pizo-header-logo{
+    padding-left: 1.4286rem;
+    padding-right: 1.4286rem;
+    height: calc(100% - 1.4286rem);
+    padding-top: 0.7143rem;
+    padding-bottom: 0.7143rem;
+    display: inline-block;
+}
+
+.pizo-header-logo-icon{
+    height: 2.1429rem;
+    width: 2.1429rem;
+    vertical-align: middle;
+}
+
+
+.pizo-header-logo-text{
+    margin-left: 0.3571rem;
+    height: 1.0714rem;
+    vertical-align: middle;
+}
+
+.pizo-header-menu{
+    vertical-align: middle;
+    background-color: transparent;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-left: 0.0714rem solid var(--border-color);
+}
+
+.pizo-header-menu .absol-hmenu-button{
+    color: var(--white);
+}
+
+.pizo-body{
+    display: inline-block;
+    width: 100%;
+    height: calc(100% - 4.0714rem);
+    background: var(--color-body);
+}
+
+.pizo-body-title{
+    position: absolute;
+    width: 100%;
+}
+
+.pizo-body-title-left{
+    transform: translateY(-100%) translateY(-0.625rem);
+    float: left;
+    color: var( --blue);
+    line-height: 2.1429rem;
+    font-size: 1.5rem;
+    position: fixed;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: var(--gray);
+    content: "/";
+}
+.pizo-body-title-right-item{
+    color: var(--primary);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.pizo-body-title .pizo-body-title-right-item+.pizo-body-title-right-item:before {
+    content: "\e649";
+    font-family: themify;
+    font-size: 0.7857rem;
+}
+
+.pizo-body-title-right{
+    margin-right: 2.1429rem;
+    margin-top: 0.71428571428rem;
+    font-size: 1rem;
+    float: right;
+}
+
+.absol-single-page-header{
+    z-index: 1000;
+    width: calc(100% - 17px) !important;
+}
+
+.outer-wrapper {
+    width: calc(100% - 1.4286rem);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.portal-section {
+    float: right;
+}
+
+.not-login-signin{
+    background: #2f426d;
+    color: #fff;
+    padding: 0.5rem 0.7143rem;
+    border-radius: 0.1429rem;
+    display: block;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.portal-section .not-loggedin {
+    width: auto;
+    float: none;
+    background: 0 0;
+    display: block;
+    padding: 0;
+    position: absolute;
+    transform: translate(-110%, -0);
+}
+
+.material-icons{
+    font-size: 1.5rem;
+}
+
+.pizo-new-realty-location-detail-row-label-important{
+    color: #d93025;
+}
+
+.hasErrorElement {
+    background-color: #000000;
+}
+
+.pizo-app .absol-checkbox.pizo-checkbox .absol-checkbox-icon{
+    display: block; 
+}
+
+._7ql {
+    border-radius: 2px;
+    display: inline;
+    vertical-align: inherit;
+}
+
+._1m6h {
+    height: 28px;
+    width: 28px;
+}
+
+._h2p ._7ql {
+    margin-left: -10px;
+}
+
+._2qgu._2qgu {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+._1qv9 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+._cy7 {
+    margin: 11px 0 8px 0;
+}
+
+._h2p ._cy7 {
+    margin-right: 1px;
+}
+
+._1vp5 {
+    background-color: transparent;
+    color: inherit;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    height: 27px;
+    line-height: 28px;
+    padding: 0 10px 1px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    color: white;
+    font-size: 14px;
+}
